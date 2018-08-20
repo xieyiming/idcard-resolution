@@ -8,7 +8,7 @@ public class Test {
 
     @org.junit.Test
     public void testIdcardBy18bit(){
-        String idcard = "430802199411110317";
+        String idcard = "341125199001011995";
         IdcardInfoExtractor extractor = new IdcardInfoExtractor(idcard);
         System.out.println(extractor.toString());
     }
