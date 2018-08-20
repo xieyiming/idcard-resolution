@@ -137,7 +137,7 @@ public class IdcardInfoExtractor {
 		}
 
 		public static void main(String[] args) {
-			String idcard = "430802199411110317";
+			String idcard = "330511197211250320";
 			IdcardInfoExtractor extractor = new IdcardInfoExtractor(idcard);
 						System.out.println(extractor.toString());
 		}
